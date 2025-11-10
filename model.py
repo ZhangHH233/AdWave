@@ -279,7 +279,7 @@ class AdWave(nn.Module):
 if __name__ == '__main__':
     
   
-    os.environ["CUDA_VISIBLE_DEVICES"] = '0,7'
+    os.environ["CUDA_VISIBLE_DEVICES"] = '0'
     img= 'oct2.png'
     
 
